@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ae2stuff.iml" filepath="$PROJECT_DIR$/ae2stuff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ae2stuff_api.iml" filepath="$PROJECT_DIR$/.idea/modules/ae2stuff_api.iml" group="ae2stuff" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ae2stuff_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ae2stuff_main.iml" group="ae2stuff" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ae2stuff_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ae2stuff_test.iml" group="ae2stuff" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.bdew-ae2stuff.iml" filepath="$PROJECT_DIR$/.idea/modules/net.bdew-ae2stuff.iml" group="ae2stuff" />
     </modules>
   </component>
 </project>
