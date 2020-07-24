@@ -62,7 +62,7 @@ class TileWireless extends TileDataSlots with GridTile with VariableIdlePower {
       try {
         connection = AEApi.instance().grid().createGridConnection(this.getNode, that.getNode)
         that.connection = connection
-        val power = cfg.powerBase + cfg.powerDistanceMultiplier * this.pos.distanceSq(that.pos)
+        val power = cfg.powerBase + cfg.powerDistanceMultiplier * this.pos.getDistance(that.pos.getX, that.pos.getY, that.pos.getZ)
         this.setIdlePowerUse(power)
         that.setIdlePowerUse(power)
         BlockWireless.setActive(world, pos, true)
